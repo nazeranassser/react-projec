@@ -1,0 +1,36 @@
+.flow {
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .input-box textarea {
+    
+    width: calc(100% - 80px);
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    min-height: 100px;
+  }
+  
+  .submitted {
+    background-color: blue;
+    color: white;
+  }
+  
